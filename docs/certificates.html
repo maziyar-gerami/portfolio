@@ -47,6 +47,8 @@
     </div>
   </nav>
 
+
+
   <!-- Certificates Section -->
   <main class="max-w-3xl mx-auto px-4 py-8 pb-32">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -54,7 +56,8 @@
       <!-- Java Streams Essentials -->
       <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
         <img src="assets/certificates/png/Java Streams Essentials_certificate.png" alt="Java Streams Essentials"
-          class="w-40 h-32 object-cover rounded mb-4">
+          class="w-40 h-32 object-cover rounded mb-4"
+          onclick="openModal(this.src)">
         <h3 class="text-lg font-semibold mb-1 text-center">Java Streams Essentials</h3>
         <p class="text-sm text-gray-500 mb-3 text-center">Amigoscode — Jun 2025</p>
         <div class="flex space-x-4">
@@ -68,7 +71,8 @@
       <!-- Introduction to Selenium -->
       <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
         <img src="assets/certificates/png/Coursera 8F8LWPGVW4UD.png" alt="Introduction to Selenium"
-          class="w-40 h-32 object-cover rounded mb-4">
+          class="w-40 h-32 object-cover rounded mb-4"
+          onclick="openModal(this.src)">
         <h3 class="text-lg font-semibold mb-1 text-center">Introduction to Selenium</h3>
         <p class="text-sm text-gray-500 mb-3 text-center">Coursera — Apr 2025</p>
         <div class="flex space-x-4">
@@ -82,7 +86,8 @@
       <!-- Learning Java Collections -->
       <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
         <img src="assets/certificates/png/CertificateOfCompletion_Learning Java Collections.png"
-          alt="Learning Java Collections" class="w-40 h-32 object-cover rounded mb-4">
+          alt="Learning Java Collections" class="w-40 h-32 object-cover rounded mb-4"
+          onclick="openModal(this.src)">
         <h3 class="text-lg font-semibold mb-1 text-center">Learning Java Collections</h3>
         <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Nov 2024</p>
         <div class="flex space-x-4">
@@ -96,7 +101,7 @@
       <!-- Introduction to Artificial Intelligence -->
       <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
         <img src="assets/certificates/png/CertificateOfCompletion_Introduction to Artificial Intelligence.png"
-          alt="Introduction to AI" class="w-40 h-32 object-cover rounded mb-4">
+          alt="Introduction to AI" class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
         <h3 class="text-lg font-semibold mb-1 text-center">Introduction to Artificial Intelligence</h3>
         <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
         <div class="flex space-x-4">
@@ -110,7 +115,7 @@
       <!-- Introduction to Spring AI -->
       <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
         <img src="assets/certificates/png/CertificateOfCompletion_Introduction to Spring AI.png"
-          alt="Introduction to Spring AI" class="w-40 h-32 object-cover rounded mb-4">
+          alt="Introduction to Spring AI" class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
         <h3 class="text-lg font-semibold mb-1 text-center">Introduction to Spring AI</h3>
         <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
         <div class="flex space-x-4">
@@ -124,7 +129,7 @@
       <!-- Java: Lambdas and Streams -->
       <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
         <img src="assets/certificates/png/CertificateOfCompletion_Java Lambdas and Streams.png"
-          alt="Java Lambdas and Streams" class="w-40 h-32 object-cover rounded mb-4">
+          alt="Java Lambdas and Streams" class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
         <h3 class="text-lg font-semibold mb-1 text-center">Java: Lambdas and Streams</h3>
         <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
         <div class="flex space-x-4">
@@ -138,7 +143,7 @@
       <!-- Learning Java 17 -->
       <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
         <img src="assets/certificates/png/CertificateOfCompletion_Learning Java 17.png" alt="Learning Java 17"
-          class="w-40 h-32 object-cover rounded mb-4">
+          class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
         <h3 class="text-lg font-semibold mb-1 text-center">Learning Java 17</h3>
         <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
         <div class="flex space-x-4">
@@ -152,7 +157,7 @@
       <!-- Learning Kubernetes -->
       <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
         <img src="assets/certificates/png/CertificateOfCompletion_Learning Kubernetes.png" alt="Learning Kubernetes"
-          class="w-40 h-32 object-cover rounded mb-4">
+          class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
         <h3 class="text-lg font-semibold mb-1 text-center">Learning Kubernetes</h3>
         <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
         <div class="flex space-x-4">
@@ -166,7 +171,7 @@
       <!-- Learning Spring with Spring Boot -->
       <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
         <img src="assets/certificates/png/CertificateOfCompletion_Learning Spring with Spring Boot.png"
-          alt="Learning Spring with Spring Boot" class="w-40 h-32 object-cover rounded mb-4">
+          alt="Learning Spring with Spring Boot" class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
         <h3 class="text-lg font-semibold mb-1 text-center">Learning Spring with Spring Boot</h3>
         <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
         <div class="flex space-x-4">
@@ -180,7 +185,7 @@
       <!-- Spring: Framework in Depth -->
       <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
         <img src="assets/certificates/png/CertificateOfCompletion_Spring Framework in Depth.png"
-          alt="Spring Framework in Depth" class="w-40 h-32 object-cover rounded mb-4">
+          alt="Spring Framework in Depth" class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
         <h3 class="text-lg font-semibold mb-1 text-center">Spring: Framework in Depth</h3>
         <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
         <div class="flex space-x-4">
@@ -194,7 +199,7 @@
       <!-- Arvan Academy - Foundational Cloud Practitioner -->
       <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
         <img src="assets/certificates/png/ArvanAcademy-CloudFoundation.png" alt="Arvan Academy Logo"
-          class="w-40 h-32 object-contain mb-4">
+          class="w-40 h-32 object-contain mb-4" onclick="openModal(this.src)">
         <h3 class="text-lg font-semibold mb-1 text-center">Foundational Cloud Practitioner</h3>
         <p class="text-sm text-gray-500 mb-1 text-center">Arvan Academy — Sep 2025</p>
         <div class="flex space-x-4">
@@ -208,7 +213,7 @@
       <!-- Faradars - Network Plus -->
       <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
         <img src="assets/certificates/png/certificate-network-plus-faradars-EN.png" alt="FaraDars"
-          class="w-40 h-32 object-contain mb-4">
+          class="w-40 h-32 object-contain mb-4" onclick="openModal(this.src)">
         <h3 class="text-lg font-semibold mb-1 text-center">Network+ Essentials</h3>
         <p class="text-sm text-gray-500 mb-1 text-center">FaraDars</p>
         <div class="flex space-x-4">
@@ -220,6 +225,28 @@
       </div>
 
     </div>
+
+
+    <!-- Modal -->
+    <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-70 hidden items-center justify-center z-50">
+      <div class="relative bg-white rounded-lg p-4 max-w-3xl w-full">
+        <button onclick="closeModal()" class="absolute top-2 right-2 text-gray-700 text-xl font-bold">×</button>
+        <img id="modalImg" src="" alt="Certificate" class="w-full h-auto object-contain rounded">
+      </div>
+    </div>
+
+    <script>
+      function openModal(src) {
+        document.getElementById('modalImg').src = src;
+        document.getElementById('imageModal').classList.remove('hidden');
+        document.getElementById('imageModal').classList.add('flex');
+      }
+
+      function closeModal() {
+        document.getElementById('imageModal').classList.add('hidden');
+        document.getElementById('imageModal').classList.remove('flex');
+      }
+    </script>
   </main>
 
   <footer class="fixed bottom-0 left-0 w-full bg-white border-t">
