@@ -1,372 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Maziyar Gerami – Java Backend Developer with professional experience in microservices and clean code.">
+  <meta name="description" content="Maziyar Gerami – Java Backend Developer with professional experience in microservices and clean code.">
   <meta name="keywords" content="Java, Spring Boot, Backend Developer, Experience, Software Engineer, Maziyar Gerami">
   <title>Maziyar Gerami | Certificates</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-  </style>
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #f9fafb; color: #1f2937; line-height: 1.6; }
+    header { background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    header > div { max-width: 768px; margin: 0 auto; padding: 24px 16px; display: flex; align-items: center; }
+    header img { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-right: 16px; }
+    header a { font-size: 24px; font-weight: bold; color: #1f2937; text-decoration: none; }
+    header a:hover { color: #2563eb; }
+    header p { color: #6b7280; }
+    nav { background: white; border-bottom: 1px solid #e5e7eb; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+    nav > div { max-width: 768px; margin: 0 auto; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: #374151; text-decoration: none; margin-right: 16px; }
+    nav a:hover { color: #2563eb; }
+    main { max-width: 768px; margin: 0 auto; padding: 32px 16px 128px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+    .card { background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); padding: 16px; display: flex; flex-direction: column; align-items: center; transition: box-shadow 0.2s; }
+    .card:hover { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .card img { width: 160px; height: 128px; object-fit: cover; border-radius: 4px; margin-bottom: 16px; cursor: pointer; }
+    .card h3 { font-size: 18px; font-weight: 600; margin-bottom: 4px; text-align: center; }
+    .card p { font-size: 14px; color: #6b7280; margin-bottom: 12px; text-align: center; }
+    .card div { display: flex; gap: 16px; }
+    .card a { color: #2563eb; text-decoration: none; font-size: 14px; }
+    .card a:hover { text-decoration: underline; }
+    #imageModal { position: fixed; inset: 0; background: rgba(0,0,0,0.7); display: none; align-items: center; justify-content: center; z-index: 50; }
+    #imageModal.show { display: flex; }
+    .modal-content { position: relative; background: white; border-radius: 8px; padding: 16px; max-width: 768px; width: 90%; }
+    .modal-content button { position: absolute; top: 8px; right: 8px; background: none; border: none; font-size: 24px; font-weight: bold; color: #1f2937; cursor: pointer; }
+    .modal-content img { width: 100%; height: auto; object-fit: contain; border-radius: 4px; }
+    footer { position: fixed; bottom: 0; left: 0; width: 100%; background: white; border-top: 1px solid #e5e7eb; }
+    footer > div { max-width: 768px; margin: 0 auto; padding: 16px; text-align: center; color: #6b7280; }</style>
 </head>
+<body>
 
-<body class="bg-gray-50 text-gray-800 antialiased">
+<header>
+  <div>
+    <img src="assets/photo.jpeg" alt="Maziyar Gerami" />
+    <div>
+      <a href="index.html">Maziyar Gerami</a>
+      <p>Java Backend Developer</p>
+    </div>
+  </div>
+</header>
 
-  <header class="bg-white shadow">
-    <div class="max-w-3xl mx-auto px-4 py-6 flex items-center">
-      <img src="assets/photo.jpeg" alt="Maziyar Gerami" class="w-20 h-20 rounded-full object-cover mr-4" />
+<nav>
+  <div>
+    <div>
+      <a href="index.html">About</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="articles.html">Articles</a><a href="certificates.html">Certificates</a>
+      <a href="resume.html">Résumé</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="grid">
+    <div class="card">
+      <img src="assets/certificates/png/Java Streams Essentials_certificate.png" alt="Java Streams Essentials" onclick="openModal(this.src)">
+      <h3>Java Streams Essentials</h3>
+      <p>Amigoscode — Jun 2025</p>
       <div>
-        <a href="index.html" class="text-2xl font-bold hover:text-blue-600">
-          Maziyar Gerami
-        </a>
-        <p class="text-gray-600">Java Backend Developer</p>
-      </div>
-    </div>
-  </header>
-
-  <nav class="bg-white border-b shadow">
-    <div class="max-w-3xl mx-auto px-4 py-3 flex justify-between items-center">
-      <div class="space-x-4">
-        <a href="index.html" class="text-gray-700 hover:text-blue-600">About</a>
-        <a href="experience.html" class="text-gray-700 hover:text-blue-600">Experience</a>
-        <a href="projects.html" class="text-gray-700 hover:text-blue-600">Projects</a>
-        <a href="education.html" class="text-gray-700 hover:text-blue-600">Education</a>
-        <a href="articles.html" class="text-gray-700 hover:text-blue-600">Articles</a>
-        <a href="certificates.html" class="text-gray-700 hover:text-blue-600">Certificates</a>
-        <a href="resume.html" class="text-gray-700 hover:text-blue-600">Résumé</a>
-        <a href="contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
-      </div>
-    </div>
-  </nav>
-
-
-
-  <!-- Certificates Section -->
-  <main class="max-w-3xl mx-auto px-4 py-8 pb-32">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-      <!-- Java Streams Essentials -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/Java Streams Essentials_certificate.png" alt="Java Streams Essentials"
-          class="w-40 h-32 object-cover rounded mb-4"
-          onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Java Streams Essentials</h3>
-        <p class="text-sm text-gray-500 mb-3 text-center">Amigoscode — Jun 2025</p>
-        <div class="flex space-x-4">
-          <a href="https://amigoscode.com/certificates/5a3671bd-76ab-41bb-a6c0-f245c5949ab9"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/Java Streams Essentials_certificate.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- Introduction to Selenium -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/Coursera 8F8LWPGVW4UD.png" alt="Introduction to Selenium"
-          class="w-40 h-32 object-cover rounded mb-4"
-          onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Introduction to Selenium</h3>
-        <p class="text-sm text-gray-500 mb-3 text-center">Coursera — Apr 2025</p>
-        <div class="flex space-x-4">
-          <a href="https://www.coursera.org/account/accomplishments/verify/8F8LWPGVW4UD"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/Coursera 8F8LWPGVW4UD.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- Learning Java Collections -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_Learning Java Collections.png"
-          alt="Learning Java Collections" class="w-40 h-32 object-cover rounded mb-4"
-          onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Learning Java Collections</h3>
-        <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Nov 2024</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/6f2ce978c4247c0cea51b1b309b9459b11fab8e41a8cc51f0935b1ffe33df859"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_Learning Java Collections.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- Introduction to Artificial Intelligence -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_Introduction to Artificial Intelligence.png"
-          alt="Introduction to AI" class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Introduction to Artificial Intelligence</h3>
-        <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/13193454bc6fc931b1e0b51849027a2e8fdd30f6d65b0dd3286d9340a0731f44"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_Introduction to Artificial Intelligence.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- Introduction to Spring AI -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_Introduction to Spring AI.png"
-          alt="Introduction to Spring AI" class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Introduction to Spring AI</h3>
-        <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/644425247187c6b033a26afce11f64790f3aee93410c3f1fc97279d49a344f46"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_Introduction to Spring AI.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- Java: Lambdas and Streams -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_Java Lambdas and Streams.png"
-          alt="Java Lambdas and Streams" class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Java: Lambdas and Streams</h3>
-        <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/933c0e88465b295ed30ee6aa155ab1e1c464a60dfbf7a936b36c38905a6891df"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_Java Lambdas and Streams.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- Learning Java 17 -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_Learning Java 17.png" alt="Learning Java 17"
-          class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Learning Java 17</h3>
-        <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/ab038eab5dd75caa8a27f75f3c1e9cce3b30ab93dd638639cfc0d26f651b003c"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_Learning Java 17.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- Learning Kubernetes -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_Learning Kubernetes.png" alt="Learning Kubernetes"
-          class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Learning Kubernetes</h3>
-        <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/a920210c1b00f1d9f5a0139e305ba4831454f972d9e2c73657f3fd1fd0fbc51e"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_Learning Kubernetes.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- Learning Spring with Spring Boot -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_Learning Spring with Spring Boot.png"
-          alt="Learning Spring with Spring Boot" class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Learning Spring with Spring Boot</h3>
-        <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/d46ce19fae35e6a63bc8e1ee0add183d6a574ef33479bc5ce6fe5997e146634c"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_Learning Spring with Spring Boot.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- Spring: Framework in Depth -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_Spring Framework in Depth.png"
-          alt="Spring Framework in Depth" class="w-40 h-32 object-cover rounded mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Spring: Framework in Depth</h3>
-        <p class="text-sm text-gray-500 mb-3 text-center">LinkedIn — Sep 2024</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/9da47ed3c3c6f7ef6e49df3b8fd1caa1e6fba8f5ff78ea66881e0d33bdc0f917"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_Spring Framework in Depth.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- Arvan Academy - Foundational Cloud Practitioner -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/ArvanAcademy-CloudFoundation.png" alt="Arvan Academy Logo"
-          class="w-40 h-32 object-contain mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Foundational Cloud Practitioner</h3>
-        <p class="text-sm text-gray-500 mb-1 text-center">Arvan Academy — Sep 2025</p>
-        <div class="flex space-x-4">
-          <a href="https://academy.arvancloud.ir/certificate/12741432B-1276EBBC5-127318A24/"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/ArvanAcademy-CloudFoundation.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- Faradars - Network Plus -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/certificate-network-plus-faradars-EN.png" alt="FaraDars"
-          class="w-40 h-32 object-contain mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Network+ Essentials</h3>
-        <p class="text-sm text-gray-500 mb-1 text-center">FaraDars - August 2025</p>
-        <div class="flex space-x-4">
-          <a href="https://faradars.org/courses/free-network-plus-learning-crash-course-fvnet106?lang=en"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/certificate-network-plus-faradars-EN.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- LinkedIn - N8N -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_Automate Your Work with n8n No Code Required.png" alt="Automate Your Work with n8n No Code Required"
-          class="w-40 h-32 object-contain mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Automate Your Work with n8n (No Code Required)</h3>
-        <p class="text-sm text-gray-500 mb-1 text-center">LinkedIn - Nov 2025</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/18cf5cb55074da729221c84d1a01c138f467862563818dc855d219b655d1b3b2?trk=share_certificate"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_Automate Your Work with n8n No Code Required.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- LinkedIn - Redis -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_Redis Essential Training.png" alt="Redis Essential Training"
-          class="w-40 h-32 object-contain mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Redis Essential Training</h3>
-        <p class="text-sm text-gray-500 mb-1 text-center">LinkedIn - Nov 2025</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/9134d41f3d5074af6b7aeb202c168d046c956b637a9f312c2231f6fc0643056a?trk=share_certificate"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_Redis Essential Training.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- LinkedIn - Java Oracle Foundation -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_LinkedInJava-Oracle-Foundation.png" alt="FaraDars"
-          class="w-40 h-32 object-contain mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Java Oracle Foundation</h3>
-        <p class="text-sm text-gray-500 mb-1 text-center">LinkedIn - December 2025</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/313d7c3422cbe1e549510db46619144cb1445f39daebcad5673f658ab373a86c?trk=share_certificate"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_LinkedInJava-Oracle-Foundation.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-    <!-- LinkedIn - Java Script Essential -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_LinkedInJavaScriptEssential.png" alt="FaraDars"
-          class="w-40 h-32 object-contain mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Java Script Essential</h3>
-        <p class="text-sm text-gray-500 mb-1 text-center">LinkedIn - December 2025</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/9c5931686385bc525baf512fd960eb1cec882fd8e80d8ba6abf298189a00b5f9?trk=share_certificate"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_LinkedInJavaScriptEssential.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- ArvanAcademy - Devops Associate Certificate -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_ArvanAcademyDevopsAssociate.png" alt="FaraDars"
-          class="w-40 h-32 object-contain mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Devops Associate Certificate</h3>
-        <p class="text-sm text-gray-500 mb-1 text-center">ArvanAcademy - December 2025</p>
-        <div class="flex space-x-4">
-          <a href="https://academy.arvancloud.ir/certificate/12CF97CF3-1274168AC-127318A24/"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_ArvanAcademyDevopsAssociate.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- Faradars - Nginx -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_FaradarsNginx.png" alt="FaraDars"
-          class="w-40 h-32 object-contain mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Nginx</h3>
-        <p class="text-sm text-gray-500 mb-1 text-center">FaraDars - January 2026</p>
-        <div class="flex space-x-4">
-          <a href="https://faradars.org/verify/D293D36D"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_FaradarsNginx.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- LinkedIn - WordPress -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_LinkedInWordPressEssentialTraining.png" alt="FaraDars"
-          class="w-40 h-32 object-contain mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">WordPress Essential Training</h3>
-        <p class="text-sm text-gray-500 mb-1 text-center">LinkedIn - February 2026</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/3bb954dd2795c5b0642a628485181e801d4614f153bc5b64fd6a1343073371fa?trk=share_certificate"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_LinkedInWordPressEssentialTraining.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-
-      <!-- LinkedIn - Git -->
-      <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex flex-col items-center">
-        <img src="assets/certificates/png/CertificateOfCompletion_LinkedIn Learning Certificate of Completion.png" alt="LinkedIn Git"
-          class="w-40 h-32 object-contain mb-4" onclick="openModal(this.src)">
-        <h3 class="text-lg font-semibold mb-1 text-center">Learning Git and GitHub</h3>
-        <p class="text-sm text-gray-500 mb-1 text-center">LinkedIn - February 2026</p>
-        <div class="flex space-x-4">
-          <a href="https://www.linkedin.com/learning/certificates/4ff066120242e08a29485be2f05fa69543a4d436ca503aff31f3a7aa0c9e321d?trk=share_certificate"
-            class="text-blue-600 hover:underline text-sm">View</a>
-          <a href="assets/certificates/pdf/CertificateOfCompletion_LinkedIn Learning Certificate of Completion.pdf"
-            class="text-blue-600 hover:underline text-sm">Download</a>
-        </div>
-      </div>
-    </div>
-    </div>
-
-
-    <!-- Modal -->
-    <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-70 hidden items-center justify-center z-50">
-      <div class="relative bg-white rounded-lg p-4 max-w-3xl w-full">
-        <button onclick="closeModal()" class="absolute top-2 right-2 text-gray-700 text-xl font-bold">×</button>
-        <img id="modalImg" src="" alt="Certificate" class="w-full h-auto object-contain rounded">
+        <a href="https://amigoscode.com/certificates/5a3671bd-76ab-41bb-a6c0-f245c5949ab9" target="_blank">View</a>
+        <a href="assets/certificates/pdf/Java Streams Essentials_certificate.pdf">Download</a>
       </div>
     </div>
 
-    <script>
-      function openModal(src) {
-        document.getElementById('modalImg').src = src;
-        document.getElementById('imageModal').classList.remove('hidden');
-        document.getElementById('imageModal').classList.add('flex');
-      }
-
-      function closeModal() {
-        document.getElementById('imageModal').classList.add('hidden');
-        document.getElementById('imageModal').classList.remove('flex');
-      }
-    </script>
-  </main>
-
-  <footer class="fixed bottom-0 left-0 w-full bg-white border-t">
-    <div class="max-w-3xl mx-auto px-4 py-4 text-center text-gray-600">
-      © 2025 Maziyar Gerami. All rights reserved.
+    <div class="card">
+      <img src="assets/certificates/png/Coursera 8F8LWPGVW4UD.png" alt="Introduction to Selenium" onclick="openModal(this.src)">
+      <h3>Introduction to Selenium</h3>
+      <p>Coursera — Apr 2025</p>
+      <div>
+        <a href="https://www.coursera.org/account/accomplishments/verify/8F8LWPGVW4UD" target="_blank">View</a>
+        <a href="assets/certificates/pdf/Coursera 8F8LWPGVW4UD.pdf">Download</a>
+      </div>
     </div>
-  </footer>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_Learning Java Collections.png" alt="Learning Java Collections" onclick="openModal(this.src)">
+      <h3>Learning Java Collections</h3>
+      <p>LinkedIn — Nov 2024</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/6f2ce978c4247c0cea51b1b309b9459b11fab8e41a8cc51f0935b1ffe33df859" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_Learning Java Collections.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_Introduction to Artificial Intelligence.png" alt="Introduction to AI" onclick="openModal(this.src)">
+      <h3>Introduction to Artificial Intelligence</h3>
+      <p>LinkedIn — Sep 2024</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/13193454bc6fc931b1e0b51849027a2e8fdd30f6d65b0dd3286d9340a0731f44" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_Introduction to Artificial Intelligence.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_Introduction to Spring AI.png" alt="Introduction to Spring AI" onclick="openModal(this.src)">
+      <h3>Introduction to Spring AI</h3>
+      <p>LinkedIn — Sep 2024</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/644425247187c6b033a26afce11f64790f3aee93410c3f1fc97279d49a344f46" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_Introduction to Spring AI.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_Java Lambdas and Streams.png" alt="Java Lambdas and Streams" onclick="openModal(this.src)">
+      <h3>Java: Lambdas and Streams</h3>
+      <p>LinkedIn — Sep 2024</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/933c0e88465b295ed30ee6aa155ab1e1c464a60dfbf7a936b36c38905a6891df" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_Java Lambdas and Streams.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_Learning Java 17.png" alt="Learning Java 17" onclick="openModal(this.src)">
+      <h3>Learning Java 17</h3>
+      <p>LinkedIn — Sep 2024</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/ab038eab5dd75caa8a27f75f3c1e9cce3b30ab93dd638639cfc0d26f651b003c" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_Learning Java 17.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_Learning Kubernetes.png" alt="Learning Kubernetes" onclick="openModal(this.src)">
+      <h3>Learning Kubernetes</h3>
+      <p>LinkedIn — Sep 2024</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/a920210c1b00f1d9f5a0139e305ba4831454f972d9e2c73657f3fd1fd0fbc51e" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_Learning Kubernetes.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_Learning Spring with Spring Boot.png" alt="Learning Spring with Spring Boot" onclick="openModal(this.src)">
+      <h3>Learning Spring with Spring Boot</h3>
+      <p>LinkedIn — Sep 2024</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/d46ce19fae35e6a63bc8e1ee0add183d6a574ef33479bc5ce6fe5997e146634c" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_Learning Spring with Spring Boot.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_Spring Framework in Depth.png" alt="Spring Framework in Depth" onclick="openModal(this.src)">
+      <h3>Spring: Framework in Depth</h3>
+      <p>LinkedIn — Sep 2024</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/9da47ed3c3c6f7ef6e49df3b8fd1caa1e6fba8f5ff78ea66881e0d33bdc0f917" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_Spring Framework in Depth.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/ArvanAcademy-CloudFoundation.png" alt="Arvan Academy" onclick="openModal(this.src)">
+      <h3>Foundational Cloud Practitioner</h3>
+      <p>Arvan Academy — Sep 2025</p>
+      <div>
+        <a href="https://academy.arvancloud.ir/certificate/12741432B-1276EBBC5-127318A24/" target="_blank">View</a>
+        <a href="assets/certificates/pdf/ArvanAcademy-CloudFoundation.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/certificate-network-plus-faradars-EN.png" alt="Network Plus" onclick="openModal(this.src)">
+      <h3>Network+ Essentials</h3>
+      <p>FaraDars — Aug 2025</p>
+      <div>
+        <a href="https://faradars.org/courses/free-network-plus-learning-crash-course-fvnet106?lang=en" target="_blank">View</a>
+        <a href="assets/certificates/pdf/certificate-network-plus-faradars-EN.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_Automate Your Work with n8n No Code Required.png" alt="n8n" onclick="openModal(this.src)">
+      <h3>Automate Your Work with n8n (No Code Required)</h3>
+      <p>LinkedIn — Nov 2025</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/18cf5cb55074da729221c84d1a01c138f467862563818dc855d219b655d1b3b2" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_Automate Your Work with n8n No Code Required.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_Redis Essential Training.png" alt="Redis" onclick="openModal(this.src)">
+      <h3>Redis Essential Training</h3>
+      <p>LinkedIn — Nov 2025</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/9134d41f3d5074af6b7aeb202c168d046c956b637a9f312c2231f6fc0643056a" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_Redis Essential Training.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_LinkedInJava-Oracle-Foundation.png" alt="Java Oracle" onclick="openModal(this.src)">
+      <h3>Java Oracle Foundation</h3>
+      <p>LinkedIn — Dec 2025</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/313d7c3422cbe1e549510db46619144cb1445f39daebcad5673f658ab373a86c" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_LinkedInJava-Oracle-Foundation.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_LinkedInJavaScriptEssential.png" alt="JavaScript" onclick="openModal(this.src)">
+      <h3>JavaScript Essential</h3>
+      <p>LinkedIn — Dec 2025</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/9c5931686385bc525baf512fd960eb1cec882fd8e80d8ba6abf298189a00b5f9" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_LinkedInJavaScriptEssential.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_ArvanAcademyDevopsAssociate.png" alt="DevOps" onclick="openModal(this.src)">
+      <h3>DevOps Associate Certificate</h3>
+      <p>ArvanAcademy — Dec 2025</p>
+      <div>
+        <a href="https://academy.arvancloud.ir/certificate/12CF97CF3-1274168AC-127318A24/" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_ArvanAcademyDevopsAssociate.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_FaradarsNginx.png" alt="Nginx" onclick="openModal(this.src)">
+      <h3>Nginx</h3>
+      <p>FaraDars — Jan 2026</p>
+      <div>
+        <a href="https://faradars.org/verify/D293D36D" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_FaradarsNginx.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_LinkedInWordPressEssentialTraining.png" alt="WordPress" onclick="openModal(this.src)">
+      <h3>WordPress Essential Training</h3>
+      <p>LinkedIn — Feb 2026</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/3bb954dd2795c5b0642a628485181e801d4614f153bc5b64fd6a1343073371fa" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_LinkedInWordPressEssentialTraining.pdf">Download</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/certificates/png/CertificateOfCompletion_LinkedIn Learning Certificate of Completion.png" alt="Git" onclick="openModal(this.src)">
+      <h3>Learning Git and GitHub</h3>
+      <p>LinkedIn — Feb 2026</p>
+      <div>
+        <a href="https://www.linkedin.com/learning/certificates/4ff066120242e08a29485be2f05fa69543a4d436ca503aff31f3a7aa0c9e321d" target="_blank">View</a>
+        <a href="assets/certificates/pdf/CertificateOfCompletion_LinkedIn Learning Certificate of Completion.pdf">Download</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div id="imageModal" onclick="closeModal()">
+  <div class="modal-content" onclick="event.stopPropagation()">
+    <button onclick="closeModal()">×</button>
+    <img id="modalImg" src="" alt="Certificate"></div>
+</div>
+
+<footer>
+  <div>© 2025 Maziyar Gerami. All rights reserved.</div>
+</footer>
+
+<script>
+  function openModal(src) {
+    document.getElementById('modalImg').src = src;
+    document.getElementById('imageModal').classList.add('show');
+  }
+  function closeModal() {
+    document.getElementById('imageModal').classList.remove('show');
+  }
+</script>
 
 </body>
-
 </html>
