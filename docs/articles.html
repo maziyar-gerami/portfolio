@@ -6,79 +6,101 @@
   <title>Maziyar Gerami | Articles</title>
   <meta name="description" content="Maziyar Gerami – Java Backend Developer">
   <meta name="author" content="Maziyar Gerami">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','ui-sans-serif','system-ui','sans-serif']}}}}
-  </script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #f9fafb; color: #1f2937; line-height: 1.6; }
+    header { background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    header > div { max-width: 768px; margin: 0 auto; padding: 24px 16px; display: flex; align-items: center; }
+    header img { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-right: 16px; }
+    header a { font-size: 24px; font-weight: bold; color: #1f2937; text-decoration: none; }
+    header a:hover { color: #2563eb; }
+    header p { color: #6b7280; }
+    nav { background: white; border-bottom: 1px solid #e5e7eb; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+    nav > div { max-width: 768px; margin: 0 auto; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: #374151; text-decoration: none; margin-right: 16px; }
+    nav a:hover { color: #2563eb; }
+    main { max-width: 768px; margin: 0 auto; padding: 32px 16px 80px; }
+    h2 { font-size: 24px; font-weight: 600; margin-bottom: 16px; }
+    ul { list-style: disc; padding-left: 20px; }
+    ul li { margin-bottom: 12px; color: #374151; }
+    ul li a { color: #2563eb; text-decoration: none; }
+    ul li a:hover { text-decoration: underline; }
+    ul li p { font-size: 14px; color: #6b7280; margin-top: 4px; }
+    section > p { margin-top: 16px; }
+    section > p a { color: #2563eb; text-decoration: none; }
+    section > p a:hover { text-decoration: underline; }
+    footer { position: fixed; bottom: 0; left: 0; width: 100%; background: white; border-top: 1px solid #e5e7eb; }
+    footer > div { max-width: 768px; margin: 0 auto; padding: 16px; text-align: center; color: #6b7280; }
+  </style>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+<body>
 
-<header class="bg-white shadow">
-    <div class="max-w-3xl mx-auto px-4 py-6 flex items-center">
-      <img src="assets/photo.jpeg" alt="Maziyar Gerami" class="w-20 h-20 rounded-full object-cover mr-4" />
-      <div>
-        <a href="index.html" class="text-2xl font-bold hover:text-blue-600">
-          Maziyar Gerami
-        </a>
-        <p class="text-gray-600">Java Backend Developer</p>
-      </div>
+<header>
+  <div>
+    <img src="assets/photo.jpeg" alt="Maziyar Gerami" />
+    <div>
+      <a href="index.html">Maziyar Gerami</a>
+      <p>Java Backend Developer</p>
     </div>
-  </header>
+  </div>
+</header>
 
-<nav class="bg-white border-b shadow">
-  <div class="max-w-3xl mx-auto px-4 py-3 flex justify-between items-center">
-    <div class="space-x-4">
-      <a href="index.html" class="text-gray-700 hover:text-blue-600">About</a>
-      <a href="experience.html" class="text-gray-700 hover:text-blue-600">Experience</a>
-      <a href="projects.html" class="text-gray-700 hover:text-blue-600">Projects</a>
-      <a href="education.html" class="text-gray-700 hover:text-blue-600">Education</a>
-      <a href="articles.html" class="text-gray-700 hover:text-blue-600">Articles</a>
-      <a href="certificates.html" class="text-gray-700 hover:text-blue-600">Certificates</a>
-      <a href="resume.html" class="text-gray-700 hover:text-blue-600">Résumé</a>
-      <a href="contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
+<nav>
+  <div>
+    <div>
+      <a href="index.html">About</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="articles.html">Articles</a>
+      <a href="certificates.html">Certificates</a>
+      <a href="resume.html">Résumé</a>
+      <a href="contact.html">Contact</a>
     </div>
   </div>
 </nav>
-<main class="max-w-3xl mx-auto px-4 py-8 space-y-12"><section id="articles" aria-labelledby="articles-heading">
-  <h2 id="articles-heading" class="text-2xl font-semibold mb-4">My Articles</h2>
-  <ul class="list-disc list-inside space-y-3 text-gray-700">
-    <li>
-      <a href="https://link.springer.com/article/10.1007/s11227-021-04016-8" class="text-blue-600 hover:underline" target="_blank">
-        An energy-aware scheduling of dynamic workflows using big data similarity statistical analysis in cloud computing
+
+<main>
+  <section id="articles" aria-labelledby="articles-heading">
+    <h2 id="articles-heading">My Articles</h2>
+    <ul>
+      <li>
+        <a href="https://link.springer.com/article/10.1007/s11227-021-04016-8" target="_blank">
+          An energy-aware scheduling of dynamic workflows using big data similarity statistical analysis in cloud computing
+        </a>
+        <p>The Journal of Supercomputing, 2022</p>
+      </li>
+      <li>
+        <a href="https://ieeexplore.ieee.org/abstract/document/7777776" target="_blank">
+          A novel association rule mining using genetic algorithm
+        </a>
+        <p>IKT, 2016</p>
+      </li>
+      <li>
+        <a href="https://ieeexplore.ieee.org/abstract/document/9738775" target="_blank">
+          A New Algorithm for Hand Gesture Recognition in Color Videos for Operating System Commands
+        </a>
+        <p>2022 International Conference on Machine Vision and Image Processing (MVIP)</p>
+      </li>
+      <li>
+        <a href="https://ssrn.com/abstract=4055019" target="_blank">
+          Introducing a Dynamic Scheduling Algorithm in a DVFS-Enabled Cloud Environment to Reduce Energy Consumption
+        </a>
+        <p>Available at SSRN</p>
+      </li>
+    </ul>
+    <p>
+      <a href="https://scholar.google.com/citations?user=QFXzg3EAAAAJ&hl=en" target="_blank">
+        View full list on Google Scholar →
       </a>
-      <p class="text-sm text-gray-500">The Journal of Supercomputing, 2022</p>
-    </li>
-    <li>
-      <a href="https://ieeexplore.ieee.org/abstract/document/7777776" class="text-blue-600 hover:underline" target="_blank">
-        A novel association rule mining using genetic algorithm
-      </a>
-      <p class="text-sm text-gray-500">IKT, 2016</p>
-    </li>
-    <li>
-	      <a href="https://ieeexplore.ieee.org/abstract/document/9738775" class="text-blue-600 hover:underline" target="_blank">
-		A New Algorithm for Hand Gesture Recognition in Color Videos for Operating System Commands
-	      </a>
-	      <p class="text-sm text-gray-500">2022 International Conference on Machine Vision and Image Processing (MVIP)</p>
-	    </li>
-	    <li>
-	      <a href="https://ssrn.com/abstract=4055019" class="text-blue-600 hover:underline" target="_blank">
-		Introducing a Dynamic Scheduling Algorithm in a DVFS-Enabled Cloud Environment to Reduce Energy Consumption
-	      </a>
-	      <p class="text-sm text-gray-500">Available at SSRN</p>
-	    </li>
-  </ul>
-  <p class="mt-4">
-    <a href="https://scholar.google.com/citations?user=QFXzg3EAAAAJ&hl=en" target="_blank" class="text-blue-600 hover:underline">
-      View full list on Google Scholar →
-    </a>
-  </p>
-</section></main>
-  <footer class="fixed bottom-0 left-0 w-full bg-white border-t">
-    <div class="max-w-3xl mx-auto px-4 py-4 text-center text-gray-600">
-      © 2025 Maziyar Gerami. All rights reserved.
-    </div>
-  </footer>
+    </p>
+  </section>
+</main>
+
+<footer>
+  <div>© 2025 Maziyar Gerami. All rights reserved.</div>
+</footer>
+
 </body>
 </html>
